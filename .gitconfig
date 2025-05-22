@@ -1,0 +1,35 @@
+[user]
+  name = jhonyrdesouza
+  email = 58796224+jhonyrdesouza@users.noreply.github.com
+  signingkey = /home/jhonyrdesouza/.ssh/id_ed25519
+
+[help]
+  autoCorrect = 20
+
+[pull]
+  ff = only
+  rebase = true
+
+[init]
+  defaultBranch = main
+
+[rerere]
+  enabled = true
+
+[fetch]
+  prune = true
+
+[gpg]
+  format = ssh
+
+[commit]
+  gpgsign = true
+
+[gpg "ssh"]
+  allowedSignersFile = /home/jhonyrdesouza/.ssh/allowed_signers
+
+[merge]
+  log = true
+
+[branch]
+  sort = -committerdate
